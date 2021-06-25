@@ -29,3 +29,7 @@ main {
   color: navy;
   text-shadow: 3px 3px 10px white;
 }
+
+.spill {
+  bottom: -30px
+}
