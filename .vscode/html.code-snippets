@@ -1,0 +1,9 @@
+{
+	"Material Design Icon Link": {
+		"prefix": "link:mdi",
+		"body": [
+			"  <link rel=\"stylesheet\" href=\"//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css\">"
+		],
+		"description": "Material Design Icon Link"
+	}
+}

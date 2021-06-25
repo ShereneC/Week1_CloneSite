@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Week1_CloneSite</title>
+</head>
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="debug">
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col p-0">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+          <a class="navbar-brand py-0" href="#">🤷‍♂️ "Say What!?" Site</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <!--NOTE took out the extra button <li class="nav-item"> -->
+              <!-- <a class="nav-link" href="#shop">Shop <span class="sr-only">(current)</span></a> -->
+              <!-- </li> -->
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="container-fluid p-0">
+
+    <div class="row hero-img">
+      <div
+        class="col-md-4 d-flex flex-column px-3 flex-column rounded shadow p-1 justify-content-center align-items-center">
+        <div class="bg-light rounded shadow card1 m-1">
+          <form>
+            <input type="Type Name">
+          </form>
+        </div>
+
+      </div>
+      <div class="col-md-8 d-none d-md-block">
+        <div class="bg-transparent rounded shadow card2 mt-5 tx-shad">
+          <h3 class="">Lorem ipsum dolor sit amet..</h3>
+          <p class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nam
+            perspiciatis laboriosam et ipsa nulla.</p>
+        </div>
+      </div>
+    </div>
+    <div id="spill" class="row bg-secondary">
+      <div class="col-md-5 p-4 margin-right-2">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusantium magnam labore ad. Dolorem iure,
+          ratione optio magni</p>
+      </div>
+      <div class="col-md-7">
+        <div class="card bg-primary">
+          <div class="card-body">
+            <h4 class="card-text">
+              <i class="mdi mdi-nature text-white"></i>
+              Text Next to Icon
+            </h4>
+            <i class="mdi mdi-pine-tree text-white"></i>
+            <h4>Text Next to Icon</h4>
+            <i class="mdi mdi-spa text-white">Text Next to Icon</i>
+            <i class="mdi mdi-sprout text-white">Text Next to Icon</i>
+            <i class="mdi mdi-tree text-white">Text Next to Icon</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+  </main>
+</body>
+
+</html>

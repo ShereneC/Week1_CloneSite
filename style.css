@@ -1,0 +1,31 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.hero-img {
+  min-height: 45vh;
+  background-image: url(https://s3-alpha-sig.figma.com/img/4ddf/8cd1/854ebd58dedacbffa9fc5a607568c27f?Expires=1625443200&Signature=Tph1JDQqchCcQFWZGqWPenwx7~9ii6zQSBecvEZ96zMiZ46~-CDf6vM4xlhMXv-XGGi9l9AwQcjTcpt84x0DPrFhjDrl3KSO8w~4e5ztgkS1-8lF2I8UZQcgzHGjKTCmpXSnvW2iWUPbrQhBDOEGcwgU85m-9zO3USwOhIM6tqrrrOjaBB2nprsdMYGiQKaCu87zJzpun2tyLyLH186085Qa8C4lLzKiX~JDWO6wpSZBvBIBqaiDVpVm7WUzSr0D~HFX8THs4CN6k0JEcGTO06j42PTti3TUvG5JEvmXaULKsRZDFaAIPFB6cT9RxZmdriVUVgBcNgS8gm3yBNOOJg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-size: cover;
+}
+
+.card1 {
+  width: 90%;
+  height: 90%;
+}
+
+.card2 {
+  width: 75%;
+  height: 30%;
+}
+
+.tx-shad {
+  color: navy;
+  text-shadow: 3px 3px 10px white;
+}
