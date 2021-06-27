@@ -31,7 +31,7 @@
 </style>
 
 <body class="bg-dark">
-  <header id="top" class="container-fluid">
+  <header id="top" class="container-fluid sticky-top">
     <div class="row">
       <div class="col p-0">
         <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
@@ -50,7 +50,7 @@
       </div>
     </div>
   </header>
-  <main class="container-fluid">
+  <main id="main" class="container-fluid">
     <div class="row hero-img">
       <div class="col-md-4 d-flex flex-column px-3 py-2">
         <p class="tx-shadow p-0 mb-0 ml-1 tx-shad2">Please complete the form:</p>
@@ -134,13 +134,15 @@
         <div class="row p-1">
           <div class="col-md-9 p-0"></div>
           <div class="col-md-3 text-center p-0">
-            <button type="button" class="btn btn-primary my-1 pill-btn">Click Here!</button>
+            <button type="button" class="btn btn-secondary my-1 pill-btn">
+              <a href="#main">Click me!</a>
+            </button>
           </div>
         </div>
       </div>
     </div>
-    <div id="row5" class="row bg-dark mt-3 d-flex justify-content-center align-items-end">
-      <div class="col-md-4 pl-2 d-flex flex-column align-items-centerorder-2 order-md-1">
+    <div id="row5" class="row bg-dark mt-3 d-flex justify-content-center align-items-center">
+      <div class="col-md-4 pl-2 d-flex flex-column align-items-center order-2 order-md-1">
         <div class="row">
           <div class="col-11 pl-2 d-flex flex-column align-items-center bg-dark rounded shadow order-2 order-md-1">
             <h5 class="text-center">111Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi necessitatibus
@@ -164,7 +166,7 @@
         <p>Lorem ipsum dolor sit.
         </p>
       </div>
-      <div class="col-md-4 pl-2 d-flex flex-column align-items-centerorder-3 order-md-3">
+      <div class="col-md-4 pl-2 d-flex flex-column align-items-center order-3 order-md-3">
         <div class="row d-flex justify-content-end">
           <div class="col-11 pl-2 d-flex flex-column align-items-center bg-dark rounded shadow order-2 order-md-1">
             <h5 class="text-center">222Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi necessitatibus

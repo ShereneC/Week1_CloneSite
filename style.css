@@ -1,3 +1,7 @@
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -61,8 +65,14 @@ main {
   position:absolute;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width: 768px) {
   #spill-div {
     position:fixed; 
   }
  }
+
+@media only screen and (min-width: 768px) {
+  .hero-img {
+    background-image: url(https://s3-alpha-sig.figma.com/img/0a0e/0bca/2eea04f898d19f0e6e8829e0db91dd50?Expires=1625443200&Signature=LEyBxwwlL0OTmwbtM3ApZkh00Xq30BQPORKlQ--IKXf-bPxdgvdWjHw10ls1SAPYlbOBzj8sq9C1lHl0IxWBVTgjYmTW1K6LZkZ1k6eQ9A5uV7AkncGV-PptFxFZ28U9fCS85iD6lH9Nzs1qWtTUUVbCCtLlEV6BoHfM2-kbSWgyA2nPQg6kr0Ce6mv~qgQt6058HVWU8b-EAR7wbUATTQqIbI3-AxAYO0hvR8TCt34icj0McTMzCJcBZQsfWc6-D-4l6SqZTFLPveCi~Ls0ZkjEQdWIaxRQuRlAxKLgvNZffEj00MyeUYWZASDJL9nlhdK6BY9uUB~SiGCOk~hRZw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  }
+}
