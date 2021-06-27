@@ -30,8 +30,19 @@ main {
   text-shadow: 3px 3px 10px white;
 }
 
+.tx-shad2 {
+  color: black;
+  text-shadow: 3px 3px 10px white;
+  font-weight: bold;
+}
+
+.bor {
+  border-left-style: solid;
+  border-width: thick;
+  color: black;
+}
 .spill {
-  bottom: -30px
+  bottom: -10px
 }
 
 /* .material-icons.md-36 { font-size: 36px;} This didn't work */
@@ -45,3 +56,13 @@ main {
   left: 20px;
   right: 20px;
 }
+
+#spill-div {
+  position:absolute;
+}
+
+@media only screen and (min-width:600px) {
+  #spill-div {
+    position:fixed; 
+  }
+ }
