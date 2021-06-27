@@ -33,3 +33,15 @@ main {
 .spill {
   bottom: -30px
 }
+
+/* .material-icons.md-36 { font-size: 36px;} This didn't work */
+
+.pill-btn {
+  border-radius: 25px;
+  font-size: large;
+}
+
+.spill2 {
+  left: 20px;
+  right: 20px;
+}
